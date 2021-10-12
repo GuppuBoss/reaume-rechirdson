@@ -61,7 +61,7 @@ export default function keyMarket () {
             <div className="l-container container-sm">
               <div className="l-row l-row-md-reverse">
                 <div className="l-column-md-6 l-pr-md-50">
-                  <img src="assets/images/keyMarket02.png" alt="image" />
+                  <img className="imageDivPadding" src="assets/images/keyMarket02.png" alt="image" />
                 </div>
                 <div className="l-column-md-6">
                 <h2 className="section__title noMargin">02</h2>
@@ -90,7 +90,7 @@ export default function keyMarket () {
                 <div className="l-container container-sm">
                 <div className="l-row l-row-md-reverse">
                 <div className="l-column-md-6 l-pr-md-50">
-                    <img src="assets/images/keyMarket04.png" alt="image" />
+                    <img className="imageDivPadding" src="assets/images/keyMarket04.png" alt="image" />
                 </div>
                 <div className="l-column-md-6">
                     <h2 className="section__title noMargin">04</h2>
@@ -121,7 +121,7 @@ export default function keyMarket () {
       <div className="l-container container-sm">
         <div className="l-row l-row-md-reverse">
           <div className="l-column-md-6 l-pr-md-50">
-            <img src="assets/images//keyMarket06.png" alt="image" />
+            <img className="imageDivPadding" src="assets/images//keyMarket06.png" alt="image" />
           </div>
          <div className="l-column-md-6">
                <h2 className="section__title noMargin">06</h2>

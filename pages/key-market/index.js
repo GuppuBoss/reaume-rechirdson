@@ -60,10 +60,10 @@ export default function keyMarket () {
           <section className="section section-key-markets">
             <div className="l-container container-sm">
               <div className="l-row l-row-md-reverse">
-                <div className="l-column-md-7 l-pr-md-50">
+                <div className="l-column-md-6 l-pr-md-50">
                   <img src="assets/images/keyMarket02.png" alt="image" />
                 </div>
-                <div className="l-column-md-5">
+                <div className="l-column-md-6">
                 <h2 className="section__title noMargin">02</h2>
                 <h3 className="section__tilte2">California Cannabis Industry</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit. Pellentesque mauris velit, scelerisque id tincidunt et, porttitor id ante. Vestibulum feugiat sed lacus non viverra. Donec commodo vulputate.</p>
@@ -89,10 +89,10 @@ export default function keyMarket () {
             <section className="section section-key-markets">
                 <div className="l-container container-sm">
                 <div className="l-row l-row-md-reverse">
-                <div className="l-column-md-7 l-pr-md-50">
+                <div className="l-column-md-6 l-pr-md-50">
                     <img src="assets/images/keyMarket04.png" alt="image" />
                 </div>
-                <div className="l-column-md-5">
+                <div className="l-column-md-6">
                     <h2 className="section__title noMargin">04</h2>
                     <h3 className="section__tilte2">adaptive reuse</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit. Pellentesque mauris velit, scelerisque id tincidunt et, porttitor id ante. Vestibulum feugiat sed lacus non viverra. Donec commodo vulputate.</p>
@@ -120,10 +120,10 @@ export default function keyMarket () {
      <section className="section section-key-markets">
       <div className="l-container container-sm">
         <div className="l-row l-row-md-reverse">
-          <div className="l-column-md-7 l-pr-md-50">
+          <div className="l-column-md-6 l-pr-md-50">
             <img src="assets/images//keyMarket06.png" alt="image" />
           </div>
-         <div className="l-column-md-5">
+         <div className="l-column-md-6">
                <h2 className="section__title noMargin">06</h2>
                <h3 className="section__tilte2">Miltary</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit. Pellentesque mauris velit, scelerisque id tincidunt et, porttitor id ante. Vestibulum feugiat sed lacus non viverra. Donec commodo vulputate.</p>

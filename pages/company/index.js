@@ -46,61 +46,54 @@ export default function Home () {
         <section className="section section-company">
           <div className="l-container l-container--fluid l-container--limit">
             <div className="l-row">
-              <div className="l-column-md-5 l-pr-md-50">
-                <h2 className="section__title">The<br />Company</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit. Pellentesque mauris velit, scelerisque id tincidunt et, porttitor id ante. Vestibulum feugiat sed lacus non viverra. Donec commodo vulputate.</p>
-                <div className="l-row">
-                  <div className="l-column-6">
-                    <div className="counter">
-                      <div className="counter__number">420</div>
-                      <p className="counter__title">Lorem ipsum dolor</p>
-                    </div>
-                  </div>
-                  <div className="l-column-6">
-                    <div className="counter">
-                      <div className="counter__number">240</div>
-                      <p className="counter__title">Lorem ipsum dolor</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="button-container"><a href="#" className="button button--primary button--border">About Company</a></div>
+              <div className="l-column-md-6 l-pr-md-50">
+                <h2 className="section__title">Our Story</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo tellus a nunc sollicitudin, sed auctor diam venenatis. Sed porta lacinia ante, ut blandit lectus consequat sit amet. Phasellus porta nisl vitae odio convallis, a lobortis dui interdum. Etiam porta dapibus quam condimentum ultricies. Morbi sem neque, posuere sit amet nulla in, elementum tempor elit. In hac habitasse platea dictumst. Sed sodales tortor sed placerat ullamcorper. Fusce accumsan lobortis enim non mollis. Vivamus gravida, est ut congue eleifend, nisl purus pharetra arcu, varius gravida libero eros a libero. Proin sem neque, ultricies vel cursus ac, posuere ut nulla..</p>
               </div>
-              <div className="l-column-md-7 l-d-flex l-flex-v-align-end l-flex-h-align-end l-pr-0"><img src="assets/images/company.jpg" alt="image" /></div>
+              <div className="l-column-md-6 l-d-flex l-flex-v-align-end l-pr-0"><img className="copmanyImage" src="assets/images/company.jpg" alt="image" /></div>
             </div>
           </div>
         </section>
-
-        <section className="section section-services">
-          <div className="bg-part"></div>
+        <section className="section section-services middleMarginTop">
+          <div className="l-column-md-6 l-pr-md-50 middleText">
+             <h2 className="section__title">mission & values</h2>
+          </div>
+          <div className="bg-part floatBackground"></div>
           <div className="l-container">
             <div className="l-row l-row-md-reverse">
-              <div className="l-column-md-7 l-pr-md-50">
-                <img src="assets/images/house.jpg" alt="house image" />
+              <div className="l-column-md-6 l-pr-md-50 secondbackground">
+                <p className="secondContainerText">our mission Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-              <div className="l-column-md-5">
-                <h2 className="section__title">services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit.</p>
-
-                <div className="button-container"><a href="#" className="button button--primary button--border">View services</a></div>
+              <div className="picturesContainer">
+              <div className="flex-container customStyleForBox">
+                <div className="smallImage">
+                  <img src="assets/images/Vector.png" />
+                  <p className="valueClass">value</p>
+                </div>
+                <div className="smallImage">
+                  <img src="assets/images/Vector.png" />
+                  <p className="valueClass">value</p>
+                </div>                
+                <div className="smallImage">
+                  <img src="assets/images/growth.png" />
+                  <p className="valueClass">value</p>
+                </div>                
               </div>
-            </div>
-          </div>
-        </section>
-        <section className="section section-key-markets">
-
-          <div className="l-container">
-            <div className="l-row">
-
-              <div className="l-column-md-7 l-pr-md-50">
-                <h2 className="section__title">Key <br />Markets</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit. Pellentesque mauris velit, scelerisque id tincidunt et, porttitor id ante. Vestibulum feugiat sed lacus non viverra. Donec commodo vulputate.</p>
-
-                <div className="button-container"><a href="#" className="button button--primary button--border">View key markets</a></div>
+              <div className="flex-container customStyleForBox">
+                <div className="smallImage">
+                  <img src="assets/images/Vector.png" />
+                  <p className="valueClass">value</p>
+                </div>
+                <div className="smallImage">
+                  <img src="assets/images/growth.png" />
+                  <p className="valueClass">value</p>
+                </div>                
+                <div className="smallImage">
+                  <img src="assets/images/Vector.png" />
+                  <p className="valueClass">value</p>
+                </div>                
               </div>
-              <div className="l-column-md-5">
-                <img src="assets/images/Group 147.jpg" alt="image" />
               </div>
-
             </div>
           </div>
         </section>
@@ -110,14 +103,13 @@ export default function Home () {
             <div className="l-row l-row-md-reverse">
 
               <div className="l-column-md-7 l-pr-md-50">
-                <img src="assets/images/Group 148.jpg" alt="image" />
+                <img src="assets/images/companyPageImage.png" alt="image" />
               </div>
 
               <div className="l-column-md-5">
-                <h2 className="section__title">Leadership</h2>
+                <h2 className="section__title">ESG <br/>program</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit vulputate sapien quis tempor. Duis ante lorem, dignissim eget augue eu, malesuada tempus mi. In id sapien eu nisi bibendum suscipit. Pellentesque mauris velit, scelerisque id tincidunt et, porttitor id ante. Vestibulum feugiat sed lacus non viverra. Donec commodo vulputate.</p>
 
-                <div className="button-container"><a href="#" className="button button--primary button--border">Read More</a></div>
               </div>
 
             </div>

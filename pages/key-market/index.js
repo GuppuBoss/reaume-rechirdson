@@ -15,7 +15,7 @@ export default function keyMarket () {
                   <nav className="navigation__nav">
                     <div className="navigation__close"><i className="icon-cross"></i></div>
                     <ul>
-                      <li className=""><Link href="#">The Company</Link></li>
+                      <li className=""><Link href="/company">The Company</Link></li>
                       <li className=""><Link href="/services">Services</Link></li>
                       <li className="active"><Link href="">Key Markets</Link></li>
                       <li><Link href="#">Leadership</Link></li>

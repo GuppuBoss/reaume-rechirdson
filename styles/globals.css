@@ -1038,7 +1038,25 @@ strong {
     padding-bottom: 100px;
   }
 }
+.middle-section {
+  background-color: #EDE7DD;
+}
+.section__tilte2 {
+  width: 723px;
+margin-bottom: 50px;
+  font-family: Decimal;
+font-style: normal;
+font-weight: 350;
+font-size: 36px;
+line-height: 62px;
 
+text-transform: uppercase;
+
+color: #746C68;
+}
+.noMargin {
+  margin: 0;
+}
 .hero__subtitle {
   font-family: "Mercury Text G1", sans-serif;
   font-size: 16px;
@@ -1070,6 +1088,7 @@ strong {
   color: #ffffff;
   margin-bottom: 20px;
   max-width: 12.929em;
+
 }
 
 @media screen and (min-width: 481px) {
@@ -1115,11 +1134,16 @@ strong {
 .hero__social a:hover {
   color: #d3c3a7;
 }
-
+.marginZero {
+  margin: 0 auto;
+}
 .hero__logo-box {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.container-sm {
+  max-width: 1480px;
 }
 
 @media screen and (max-width: 1024px) {

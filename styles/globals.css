@@ -549,10 +549,16 @@ strong {
 .section-hero.services {
   background-image: url("../images/services-hero-bg.jpg");
 }
-
+.section-hero.market {
+  background-image: url("../images/marketBackground.png");
+}
 .section-hero.home {
   height: 100vh;
   background-image: url("../images/home-hero.jpg");
+}
+.section-hero.company {
+  height: 100vh;
+  background-image: url("../images/companyBackground.png");
 }
 .section-hero.contactus {
   height: 100vh;
@@ -563,6 +569,25 @@ strong {
   background-image: url("../images/careers.png");
 }
 
+.copmanyImage {
+  width: 762px;
+  height: 470px;
+}
+.middleText {
+  position: absolute;
+  top: -90px;
+  left: 90px;
+  width: 1115px;
+}
+.middleMarginTop {
+  margin-top: 100px;
+}
+.floatBackground {
+  background-color: #746C68 !important;
+}
+.secondbackground {
+  background-color:#EDE7DD ;
+}
 .section-hero:before {
   content: "";
   position: absolute;
@@ -1623,7 +1648,49 @@ color: #746C68;
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.smallImage {
+  margin-right: 130px;
+}
+.customStyleForBox {
+  margin-left: 200px !important;
+  padding-top: 0px;
+}
+.valueClass {
+  text-align: center;
+  font-family: Mercury Text G1;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 44px;
+/* identical to box height, or 183% */
 
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.picturesContainer{
+  margin-top: 75px;
+}
+.secondContainerText {
+  text-align: center;
+  font-family: Decimal;
+font-style: normal;
+font-weight: 350;
+font-size: 33px;
+line-height: 62px;
+/* or 148% */
+
+text-transform: uppercase;
+
+color: #746C68;
+margin-top: 170px;
+margin-left: 100px;
+height: 186px;
+text-align: initial;
+width: 670px;
+margin-right: 100px;
+margin-bottom: 150px;
+}
 .flex-one {
   flex-grow:1;
   width:50%

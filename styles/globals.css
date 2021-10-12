@@ -558,6 +558,10 @@ strong {
   height: 100vh;
   background-image: url("../images/contactus.png");
 }
+.section-hero.careers {
+  height: 100vh;
+  background-image: url("../images/careers.png");
+}
 
 .section-hero:before {
   content: "";
@@ -1642,7 +1646,11 @@ color: #746C68;
   width: 100%;
   border:none;
 }
-
+.btn-half {
+  padding: 16px;
+  width: 100%;
+  border:none;
+}
 .btn-top-margin {
   margin-top: 16px;
 }
@@ -1689,11 +1697,52 @@ color: #746C68;
 .full-width {
   width: 100%;
 }
+.width-45 {
+  width:45%;
+}
+.career-bg-color {
+  background-color: #746C68;
+}
+.career-btn-text-color {
+  color: white;
+}
 .input {
   padding: 12px;
   margin-bottom: 10px;
 } 
 .font-light {
   font-weight: lighter;
+}
+.margin-16 {
+  margin: 20px;
+}
+.line-height {
+  line-height: 40px;
+}
+.height-400{
+  height:400px;
+}
+
+.benifits-img {
+  height: 300px;
+  float:right;
+}
+.float-right {
+  float:right;
+}
+.float-manager{
+  float:right;
+}
+.float-clear {
+  clear: both;
+}
+@media screen and (max-width:768px) {
+  .float-manager{
+    float:left;
+  }
+}
+.text-center {
+  text-align: center;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=style.css.map */

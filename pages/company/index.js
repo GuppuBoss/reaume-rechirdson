@@ -33,10 +33,9 @@ export default function Home () {
             <div className="l-row">
               <div className="l-column-12 l-d-flex l-flex-v-align-center">
                 <div className="hero__content">
-                  <p className="hero__subtitle">Lorem ipsum dolor sit amet, consectetur</p>
-                  <h1 className="hero__title">Reaumerichardson welcomes you!</h1>
+                  <h1 className="hero__title">The <br/> Company</h1>
                   <span className="hero__seperator"></span>
-                  <span className="hero__social"><a href="#"><i className="icon-facebook-1"></i></a> <a href="#"><i className="icon-instagram-1"></i></a></span>
+                  <p className="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                   <div className="hero__logo-box"><img src="assets/images/icons/Brand_Mark_REVERSED 1.png" alt="" /></div>
                 </div>
               </div>

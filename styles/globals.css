@@ -549,10 +549,16 @@ strong {
 .section-hero.services {
   background-image: url("../images/services-hero-bg.jpg");
 }
-
+.section-hero.market {
+  background-image: url("../images/marketBackground.png");
+}
 .section-hero.home {
   height: 100vh;
   background-image: url("../images/home-hero.jpg");
+}
+.section-hero.company {
+  height: 100vh;
+  background-image: url("../images/companyBackground.png");
 }
 
 .section-hero:before {

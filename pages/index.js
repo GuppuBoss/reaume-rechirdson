@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 export default function Home () {
   return (
     <div id="site">
@@ -15,11 +15,11 @@ export default function Home () {
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
                     <li className="active"><a href="#">The Company</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="#">Key Markets</a></li>
-                    <li><a href="#">Leadership</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#" className="button button--primary button--filled">Contact us</a></li>
+                    <li><Link href="/services">Services</Link></li>
+                    <li><Link href="/key-market">Key Markets</Link></li>
+                    <li><Link href="#">Leadership</Link></li>
+                    <li><Link href="#">Careers</Link></li>
+                    <li><Link href="#" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>

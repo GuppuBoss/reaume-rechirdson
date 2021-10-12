@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 export default function Services () {
   return (
@@ -6,7 +7,7 @@ export default function Services () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/home" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -14,12 +15,12 @@ export default function Services () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className=""><a href="#">The Company</a></li>
-                    <li className="/services"><a href="#">Services</a></li>
-                    <li><a href="#">Key Markets</a></li>
-                    <li><a href="#">Leadership</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#" className="button button--primary button--filled">Contact us</a></li>
+                    <li className=""><Link href="#">The Company</Link></li>
+                    <li className="active"><Link href="#">Services</Link></li>
+                    <li><Link href="/key-market">Key Markets</Link></li>
+                    <li><Link href="#">Leadership</Link></li>
+                    <li><Link href="#">Careers</Link></li>
+                    <li><Link href="#" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>

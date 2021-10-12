@@ -1,27 +1,25 @@
-import { useState } from 'react';
-
-export default function HomePage () {
-
+import Link from 'next/link'
+export default function Home () {
   return (
-    <div id="site" >
-      <header id="header"  >
+    <div id="site">
+      <header id="header">
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/home" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></a>
+              <a href="/" className="site-logo"><img src="assets/images/logo-light.png" alt="site logo" /></a>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
-              <div className="navigation">
+              <div className="navaigation">
                 <div className="navigation__button"><i className="icon-menu"></i></div>
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
                     <li className="active"><a href="#">The Company</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="#">Key Markets</a></li>
-                    <li><a href="#">Leadership</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#" className="button button--primary button--filled">Contact us</a></li>
+                    <li><Link href="/services">Services</Link></li>
+                    <li><Link href="/key-market">Key Markets</Link></li>
+                    <li><Link href="#">Leadership</Link></li>
+                    <li><Link href="#">Careers</Link></li>
+                    <li><Link href="#" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -30,7 +28,7 @@ export default function HomePage () {
         </div>
       </header>
       <div id="main">
-        <section className="section section-hero hero home">
+        <section className="section section-hero hero company">
           <div className="l-container">
             <div className="l-row">
               <div className="l-column-12 l-d-flex l-flex-v-align-center">
@@ -158,7 +156,7 @@ export default function HomePage () {
             </div>
             <div className="l-column-12 l-column-md-6 l-d-flex l-flex-v-align-end">
               <form action="" className="subscription-form">
-                <label htmlFor="email">Sign up for monthly updates</label>
+                <label for="email">Sign up for monthly updates</label>
                 <div className="l-input-group">
                   <input id="email" type="email" name="email" placeholder="Enter your E-mail" />
                   <span className="input-group-btn">

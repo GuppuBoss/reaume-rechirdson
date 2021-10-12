@@ -1,0 +1,52 @@
+/* ====================== */
+/* SUSBCRIPTION FORM */
+/* ====================== */
+.subscription-form {
+	width: 100%;
+	label {
+		font-family: "Decimal", sans-serif;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 1.227;
+		color: $text-white;
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+
+	input[type="email"] {
+		height: 100%;
+		width: 100%;
+		padding: 20px;
+		font-size: 18px;
+		font-family: "Decimal", sans-serif;
+		color: #ede7dc;
+		border: 1px solid $white;
+		background: transparent;
+
+		&::placeholder {
+			color: #ede7dc;
+		}
+	}
+
+	.l-input-group {
+		position: relative;
+		height: 70px;
+	}
+
+	.input-group-btn {
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 30%;
+	}
+
+	button {
+		height: 100%;
+		width: 100%;
+		background: $white;
+		border: 1px solid $white;
+		text-transform: uppercase;
+		color: #58585a;
+	}
+}

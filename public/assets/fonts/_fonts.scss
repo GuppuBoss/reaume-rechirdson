@@ -1,0 +1,133 @@
+/* ====================== */
+/* = Fonts */
+/* ====================== */
+@font-face {
+	font-family: "Mercury Text G1";
+	src: url("../fonts/MercuryTextG1-Roman.eot");
+	src: url("../fonts/MercuryTextG1-Roman.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/MercuryTextG1-Roman.woff2") format("woff2"),
+		url("../fonts/MercuryTextG1-Roman.woff") format("woff"),
+		url("../fonts/MercuryTextG1-Roman.ttf") format("truetype"),
+		url("../fonts/MercuryTextG1-Roman.svg#MercuryTextG1-Roman") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Decimal";
+	src: url("../fonts/Decimal-Bold.eot");
+	src: url("../fonts/Decimal-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Decimal-Bold.woff2") format("woff2"),
+		url("../fonts/Decimal-Bold.woff") format("woff"),
+		url("../fonts/Decimal-Bold.ttf") format("truetype"),
+		url("../fonts/Decimal-Bold.svg#Decimal-Bold") format("svg");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Decimal";
+	src: url("../fonts/Decimal-Black.eot");
+	src: url("../fonts/Decimal-Black.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Decimal-Black.woff2") format("woff2"),
+		url("../fonts/Decimal-Black.woff") format("woff"),
+		url("../fonts/Decimal-Black.ttf") format("truetype"),
+		url("../fonts/Decimal-Black.svg#Decimal-Black") format("svg");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Decimal";
+	src: url("../fonts/Decimal-Book.eot");
+	src: url("../fonts/Decimal-Book.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Decimal-Book.woff2") format("woff2"),
+		url("../fonts/Decimal-Book.woff") format("woff"),
+		url("../fonts/Decimal-Book.ttf") format("truetype"),
+		url("../fonts/Decimal-Book.svg#Decimal-Book") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Decimal";
+	src: url("../fonts/Decimal-Semibold.eot");
+	src: url("../fonts/Decimal-Semibold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Decimal-Semibold.woff2") format("woff2"),
+		url("../fonts/Decimal-Semibold.woff") format("woff"),
+		url("../fonts/Decimal-Semibold.ttf") format("truetype"),
+		url("../fonts/Decimal-Semibold.svg#Decimal-Semibold") format("svg");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Decimal";
+	src: url("../fonts/Decimal-Medium.eot");
+	src: url("../fonts/Decimal-Medium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Decimal-Medium.woff2") format("woff2"),
+		url("../fonts/Decimal-Medium.woff") format("woff"),
+		url("../fonts/Decimal-Medium.ttf") format("truetype"),
+		url("../fonts/Decimal-Medium.svg#Decimal-Medium") format("svg");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?7ych40");
+	src: url("../fonts/icomoon.eot?7ych40#iefix") format("embedded-opentype"),
+		url("../fonts/icomoon.ttf?7ych40") format("truetype"),
+		url("../fonts/icomoon.woff?7ych40") format("woff"),
+		url("../fonts/icomoon.svg?7ych40#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-1:before {
+	content: "\e900";
+	color: #fff;
+}
+.icon-instagram-1:before {
+	content: "\e901";
+	color: #fff;
+}
+.icon-menu:before {
+	content: "\e9bd";
+}
+.icon-plus:before {
+	content: "\ea0a";
+}
+.icon-minus:before {
+	content: "\ea0b";
+}
+.icon-cross:before {
+	content: "\ea0f";
+}
+.icon-paragraph-justify:before {
+	content: "\ea7a";
+}

@@ -1,0 +1,31 @@
+.counter {
+	// text-align: center;
+	margin-top: 35px;
+
+	@include bp-small {
+		text-align: center;
+	}
+	&__number {
+		font-family: "Mercury Text G1", sans-serif;
+		font-size: 80px;
+		line-height: 1;
+		color: $text-grey;
+		font-weight: 500;
+
+		@include bp-x-large-min {
+			font-size: 144px;
+		}
+	}
+
+	&__title {
+		font-family: "Mercury Text G1", sans-serif;
+		font-size: 16px;
+		line-height: 1.25;
+		color: $text-grey;
+		font-weight: 500;
+		color: $text-black;
+		@include bp-x-large-min {
+			font-size: 28px;
+		}
+	}
+}

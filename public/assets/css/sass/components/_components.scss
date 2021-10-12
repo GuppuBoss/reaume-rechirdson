@@ -1,0 +1,100 @@
+/* ====================== */
+/* = COMPONENTS */
+/* ====================== */
+
+/* Reusable elements will go here. e.g., ".social", ".clearfix" */
+
+.clear {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+	&:before,
+	&:after {
+		content: ".";
+		display: block;
+		overflow: hidden;
+		visibility: hidden;
+		font-size: 0;
+		line-height: 0;
+		width: 0;
+		height: 0;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+/* text */
+
+.text-center {
+	text-align: center;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+.l-d-flex {
+	display: flex;
+}
+.l-flex-v-align-center {
+	align-items: center;
+}
+.l-flex-v-align-end {
+	align-items: end;
+}
+.l-flex-h-align-end {
+	justify-content: flex-end;
+}
+
+/* padding helper classes */
+
+.l-pr-0 {
+	padding-right: 0;
+}
+
+.l-p-0 {
+	padding: 0;
+}
+
+.l-pr-50 {
+	padding-right: 50px;
+}
+
+.l-pr-md-50 {
+	@include bp-medium-min {
+		padding-right: 50px;
+	}
+}
+
+.l-pb-50 {
+	padding-bottom: 50px;
+}
+
+.l-pb-30 {
+	padding-bottom: 30px;
+}
+
+.l-pt-50 {
+	padding-top: 50px;
+}
+
+.l-px-40 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.l-overflow-x-hidden {
+	overflow-x: hidden;
+}
+
+.dashed-border {
+	border: 2px dashed #a29885;
+	border-radius: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

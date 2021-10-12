@@ -1,0 +1,44 @@
+/* ====================== */
+/* Defaults */
+/* ====================== */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+	color: $text-black;
+	line-height: normal;
+	font-family: "Decimal", sans-serif;
+}
+
+p {
+	font-family: "Mercury Text G1", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.833;
+	margin-bottom: 30px;
+
+	@include bp-x-large-min {
+		font-size: 24px;
+	}
+}
+
+a {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+
+	&.img-fluid {
+		width: 100%;
+	}
+}
+strong {
+	font-weight: 700;
+}

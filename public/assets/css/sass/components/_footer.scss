@@ -1,0 +1,21 @@
+/* ====================== */
+/* = FOOTER */
+/* ====================== */
+
+#footer {
+	background-color: #746c68;
+	padding: 40px 0;
+
+	.site-logo {
+		margin-bottom: 40px;
+		display: inline-block;
+	}
+
+	p {
+		color: $text-white;
+		font-family: "Decimal", sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 1.222;
+	}
+}

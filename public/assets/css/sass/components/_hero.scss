@@ -1,0 +1,122 @@
+/* ====================== */
+/* = HERO */
+/* ====================== */
+
+.hero {
+	&__content {
+		max-width: 905px;
+		align-self: flex-end;
+		@include bp-medium {
+			padding-bottom: 100px;
+		}
+	}
+	&__subtitle {
+		font-family: "Mercury Text G1", sans-serif;
+		font-size: 16px;
+		line-height: 1.417;
+		text-transform: uppercase;
+		color: $text-white;
+		font-weight: 500;
+		margin-bottom: 20px;
+
+		@include bp-medium-min {
+			font-size: 20px;
+		}
+		@include bp-x-large-min {
+			font-size: 24px;
+		}
+	}
+
+	&__title {
+		font-family: "Decimal", sans-serif;
+		font-size: 24px;
+		line-height: 1.094;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: $text-white;
+		margin-bottom: 20px;
+		max-width: 12.929em;
+
+		@include bp-small-min {
+			font-size: 30px;
+		}
+		@include bp-medium-min {
+			font-size: 50px;
+		}
+		@include bp-x-large-min {
+			font-size: 96px;
+		}
+	}
+
+	&__seperator {
+		width: 100%;
+		max-width: 773px;
+		display: inline-block;
+		height: 2px;
+		background: #fff;
+		vertical-align: middle;
+		margin-bottom: 20px;
+	}
+
+	&__social {
+		vertical-align: middle;
+
+		a {
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 30px;
+			text-decoration: none;
+			color: $text-white;
+
+			&:hover {
+				color: $accent;
+			}
+		}
+	}
+
+	&__logo-box {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+
+		@include bp-large {
+			max-width: 100px;
+		}
+	}
+}
+
+.home .hero {
+	&__content {
+		align-self: center;
+	}
+
+	&__subtitle {
+		font-weight: 600;
+	}
+
+	&__title {
+		font-size: 24px;
+		line-height: 1.357;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $text-white;
+		margin-bottom: 20px;
+		max-width: 12.929em;
+
+		@include bp-small-min {
+			font-size: 30px;
+		}
+		@include bp-medium-min {
+			font-size: 50px;
+		}
+		@include bp-x-large-min {
+			font-size: 70px;
+		}
+	}
+
+	&__seperator {
+		width: 100%;
+		max-width: 264px;
+		margin-bottom: 0;
+	}
+}

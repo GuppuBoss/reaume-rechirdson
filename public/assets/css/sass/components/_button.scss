@@ -1,0 +1,46 @@
+/* ====================== */
+/* = BUTTONS */
+/* ====================== */
+.button-container {
+	margin-top: 75px;
+}
+.button {
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 350;
+	font-weight: 400;
+	color: $text-black;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	white-space: nowrap;
+	@include bp-x-large {
+		font-size: 13px;
+	}
+
+	&--primary {
+		padding: 1.125em 2.5em;
+		text-transform: uppercase;
+	}
+
+	&--filled {
+		background-color: $button-filled;
+		color: $text-white;
+
+		&:hover {
+			background-color: $button-filled-hover;
+		}
+	}
+	&--border {
+		background-color: $text-white;
+		color: $button-border-text;
+		border: 1px solid $button-border-color;
+
+		&:hover {
+			background-color: $button-border-color;
+			color: $text-white;
+		}
+	}
+}

@@ -1,12 +1,14 @@
+import { useState } from 'react';
 
-export default function Home () {
+export default function HomePage () {
+
   return (
-    <div id="site">
-      <header id="header">
+    <div id="site" >
+      <header id="header"  >
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/" className="site-logo"><img src="assets/images/logo-light.png" alt="site logo" /></a>
+              <a href="/home" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></a>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -156,7 +158,7 @@ export default function Home () {
             </div>
             <div className="l-column-12 l-column-md-6 l-d-flex l-flex-v-align-end">
               <form action="" className="subscription-form">
-                <label for="email">Sign up for monthly updates</label>
+                <label htmlFor="email">Sign up for monthly updates</label>
                 <div className="l-input-group">
                   <input id="email" type="email" name="email" placeholder="Enter your E-mail" />
                   <span className="input-group-btn">

@@ -1,0 +1,114 @@
+/* ====================== */
+/* = TIMELINE */
+/* ====================== */
+.timeline {
+	position: relative;
+	padding-left: 50px;
+	padding-right: 40px;
+
+	@include bp-x-large-min {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	&__step-title {
+		font-family: "Decimal", sans-serif;
+
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 1.722;
+		text-transform: uppercase;
+		color: $text-grey-dark;
+		white-space: nowrap;
+
+		@include bp-x-large-min {
+			font-size: 36px;
+		}
+
+		&.last {
+			transform: translateY(35px);
+
+			@include bp-x-large-min {
+				transform: translateY(60px);
+			}
+		}
+
+		// margin-bottom: 20px;
+	}
+
+	&__step {
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+
+	&__step-inner {
+		position: relative;
+		display: flex;
+		align-items: center;
+
+		&.last {
+			padding: 12px;
+			padding-left: 0;
+
+			@include bp-x-large-min {
+				padding: 12px;
+				padding-left: 0;
+			}
+		}
+	}
+
+	&__step-num {
+		display: flex;
+		flex: 0 0 auto;
+		padding: 10px;
+		border-radius: 100px;
+		background: $step-bg;
+		color: $text-white;
+		width: 1.964em;
+		height: 1.964em;
+		justify-content: center;
+		align-items: center;
+		font-family: "Decimal", sans-serif;
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 1;
+
+		@include bp-x-large-min {
+			font-size: 28px;
+		}
+	}
+
+	&__step-last {
+		width: 0;
+		border-top: 15px solid transparent;
+		border-left: 30px solid #dbd7cf;
+		border-bottom: 15px solid transparent;
+
+		border-top: 10px solid transparent;
+		border-left: 20px solid #dbd7cf;
+		border-bottom: 10px solid transparent;
+
+		@include bp-x-large-min {
+			border-top: 15px solid transparent;
+			border-left: 30px solid #dbd7cf;
+			border-bottom: 15px solid transparent;
+		}
+	}
+
+	&__step-line {
+		display: inline-block;
+		width: 100%;
+		height: 3px;
+		background: #dbd7cf;
+		vertical-align: middle;
+
+		@include bp-x-large-min {
+			height: 5px;
+		}
+	}
+
+	&__step-desc {
+		margin-top: 50px;
+	}
+}

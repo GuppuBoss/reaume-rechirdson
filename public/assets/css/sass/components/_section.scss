@@ -1,0 +1,301 @@
+/* ====================== */
+/* = SECTION */
+/* ====================== */
+.section {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	position: relative;
+
+	@include bp-medium {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	&__inner {
+		position: relative;
+
+		&.last {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+	}
+
+	&__title {
+		font-family: "Decimal", sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: 36px;
+		line-height: 1.094;
+		color: transparent;
+		-webkit-text-stroke: 1px $text-border-color;
+
+		margin-bottom: 0.529em;
+
+		@include bp-large-min {
+			font-size: 56px;
+			-webkit-text-stroke: 2px $text-border-color;
+		}
+		@include bp-x-large-min {
+			font-size: 96px;
+		}
+	}
+
+	&__subtitle {
+		font-family: "Decimal", sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: uppercase;
+		line-height: 1.722;
+		color: $text-grey-dark;
+
+		@include bp-large-min {
+			font-size: 26px;
+		}
+		@include bp-x-large-min {
+			font-size: 36px;
+		}
+	}
+
+	&-hero {
+		position: relative;
+		height: 631px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding-bottom: 85px;
+
+		&.services {
+			background-image: url("../images/services-hero-bg.jpg");
+		}
+		&.home {
+			height: 100vh;
+			background-image: url("../images/home-hero.jpg");
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background: $overylay-color;
+			opacity: 0.5;
+			z-index: 1;
+		}
+
+		.l-container {
+			position: relative;
+			z-index: 10;
+		}
+	}
+
+	&-company {
+		padding-top: 150px;
+		padding-bottom: 75px;
+
+		@include bp-medium {
+			padding-top: 100px;
+			padding-bottom: 50px;
+		}
+
+		.l-container--fluid {
+			padding-left: 4.6%;
+		}
+	}
+
+	&-leadership {
+		.section__title {
+			@include bp-x-large-min {
+				font-size: 76px;
+			}
+			@media (min-width: 1686px) {
+				font-size: 96px;
+			}
+		}
+	}
+	.bg-part {
+		background-color: $section-bg-light;
+		position: absolute;
+		width: 100%;
+		// z-index: ;
+		height: 100%;
+		right: 0;
+		left: 0;
+		top: 60px;
+
+		@include bp-medium {
+			top: 0;
+		}
+	}
+
+	&-services {
+		// background-color: $section-bg-light;
+		position: relative;
+
+		.bg-part {
+			width: 80%;
+			height: 90%;
+			right: 0;
+			left: initial;
+			top: 50%;
+			transform: translateY(-50%);
+
+			@include bp-medium {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&-contact {
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 150px;
+
+		@include bp-medium {
+			margin-bottom: 50px;
+		}
+		.bg-part {
+			width: 100%;
+			height: 100%;
+			right: 0;
+			left: 0;
+			top: 60px;
+
+			@include bp-medium {
+				top: 0;
+			}
+		}
+		p {
+			font-family: "Decimal", sans-serif;
+		}
+
+		img {
+			margin-top: -50px;
+
+			@include bp-medium {
+				margin-top: 0;
+			}
+		}
+	}
+	&-cm {
+		position: relative;
+
+		.section__title {
+			@include bp-small {
+				font-size: 25px;
+			}
+		}
+
+		.bg-part {
+			width: 100%;
+			height: 100%;
+			right: 0;
+			left: 0;
+			top: 0;
+
+			@include bp-medium {
+				top: 0;
+			}
+		}
+
+		img {
+			margin-top: -100px;
+
+			@include bp-medium {
+				margin-top: 0;
+			}
+		}
+	}
+	&-cce {
+		position: relative;
+	}
+
+	&-our-story {
+		img {
+			width: 100%;
+			max-width: 870px;
+		}
+	}
+
+	&-owners {
+		overflow-x: hidden;
+	}
+
+	&-luc {
+		background-color: $section-bg-light;
+
+		.section__title {
+			margin-bottom: 0;
+
+			font-size: 25px;
+
+			@include bp-large-min {
+				font-size: 56px;
+			}
+
+			@include bp-x-large-min {
+				font-size: 82px;
+			}
+		}
+	}
+	&-ccd {
+		.section__title {
+			margin-bottom: 0;
+
+			font-size: 25px;
+
+			@include bp-large-min {
+				font-size: 56px;
+			}
+
+			@include bp-x-large-min {
+				font-size: 82px;
+			}
+		}
+
+		img {
+			margin-top: -130px;
+
+			@include bp-large {
+				margin-top: -80px;
+			}
+			@include bp-medium {
+				margin-top: 0;
+			}
+		}
+	}
+
+	&-enc {
+		.section__title {
+			margin-bottom: 0;
+
+			font-size: 25px;
+
+			@include bp-large-min {
+				font-size: 56px;
+			}
+
+			@include bp-x-large-min {
+				font-size: 72px;
+			}
+		}
+
+		.column-first {
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.column-last {
+			padding: 5% 10% 5% 5%;
+			background-color: $section-bg-light;
+		}
+	}
+}

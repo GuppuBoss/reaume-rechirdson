@@ -1,16 +1,12 @@
-import { useState } from 'react';
+import Link from 'next/link';
 export default function ContactUs () {
-  const [ showName, setShowName ] = useState( false );
-  const [ showEmail, setShowEmail ] = useState( false );
-  const [ showMessage, setShowMessage ] = useState( false );
-
   return (
     <>
       <header id="header"  >
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/home" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -18,12 +14,12 @@ export default function ContactUs () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className="active"><a href="#">The Company</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="#">Key Markets</a></li>
-                    <li><a href="#">Leadership</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#" className="button button--primary button--filled">Contact us</a></li>
+                    <li className=""><Link href="/company">The Company</Link></li>
+                    <li className=""><Link href="/services">Services</Link></li>
+                    <li ><Link href="/keymarket">Key Markets</Link></li>
+                    <li><Link href="/leadership">Leadership</Link></li>
+                    <li><Link href="/careers">Careers</Link></li>
+                    <li className="active"><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>

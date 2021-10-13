@@ -6,7 +6,7 @@ export default function Home () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/" className="site-logo"><img src="assets/images/logo-light.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -14,12 +14,12 @@ export default function Home () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className="active"><a href="#">The Company</a></li>
+                    <li className=""><Link href="/company">The Company</Link></li>
                     <li><Link href="/services">Services</Link></li>
-                    <li><Link href="/key-market">Key Markets</Link></li>
-                    <li><Link href="#">Leadership</Link></li>
-                    <li><Link href="#">Careers</Link></li>
-                    <li><Link href="#" className="button button--primary button--filled">Contact us</Link></li>
+                    <li><Link href="/keymarket">Key Markets</Link></li>
+                    <li><Link href="/leadership">Leadership</Link></li>
+                    <li><Link href="/careers">Careers</Link></li>
+                    <li><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -156,7 +156,7 @@ export default function Home () {
             </div>
             <div className="l-column-12 l-column-md-6 l-d-flex l-flex-v-align-end">
               <form action="" className="subscription-form">
-                <label for="email">Sign up for monthly updates</label>
+                <label htmlFor="email">Sign up for monthly updates</label>
                 <div className="l-input-group">
                   <input id="email" type="email" name="email" placeholder="Enter your E-mail" />
                   <span className="input-group-btn">

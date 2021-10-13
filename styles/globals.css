@@ -1812,4 +1812,13 @@ margin-bottom: 150px;
   text-align: center;
   letter-spacing: 2px;
 }
+.space-between {
+  justify-content: space-between;
+}
+.mg-b-50 {
+ margin-bottom: 50px;
+}
+.mg-t-50 {
+ margin-top: 50px;
+}
 /*# sourceMappingURL=style.css.map */

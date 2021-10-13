@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Careers () {
   return (
     <>
@@ -5,7 +6,7 @@ export default function Careers () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/home" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -13,12 +14,12 @@ export default function Careers () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className="active"><a href="#">The Company</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="#">Key Markets</a></li>
-                    <li><a href="#">Leadership</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#" className="button button--primary button--filled">Contact us</a></li>
+                    <li className=""><Link href="/company">The Company</Link></li>
+                    <li className=""><Link href="/services">Services</Link></li>
+                    <li ><Link href="/keymarket">Key Markets</Link></li>
+                    <li><Link href="/leadership">Leadership</Link></li>
+                    <li className="active"><Link href="/careers">Careers</Link></li>
+                    <li><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -72,10 +73,20 @@ export default function Careers () {
         <div className="section__title margin-16">benefits</div>
         <div className="l-row">
           <div className="l-column-md-6">
-            <p className="margin-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque <br /> commodo tellus a nunc sollicitudin, sed auctor diam venenatis.</p>
+            <div className="">
+              <p className="margin-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque <br /> commodo tellus a nunc sollicitudin, sed auctor diam venenatis.</p>
+              <div className="l-row space-between mg-b-50">
+                <img src="/assets/images/benifits.png" alt="benifits image" />
+                <img src="/assets/images/benifits.png" alt="benifits image" />
+              </div>
+              <div className="l-row space-between">
+                <img src="/assets/images/benifits.png" alt="benifits image" />
+                <img src="/assets/images/benifits.png" alt="benifits image" />
+              </div>
+            </div>
           </div>
           <div className="l-column-md-6">
-            <div>
+            <div className="mg-t-50">
               <img src="/assets/images/planning.png" className="benifits-img" alt="planning" />
             </div>
           </div>
@@ -89,25 +100,22 @@ export default function Careers () {
         <div className="float-clear"></div>
       </section>
       <section className="section section-contact">
-          <div className="bg-part"></div>
-          <div className="l-container">
-            <div className="l-row">
+        <div className="bg-part"></div>
+        <div className="l-container">
+          <div className="l-row">
 
-              <div className="l-column-md-6">
+            <div className="l-column-md-6">
               <img src="/assets/images/meeting.png" alt="meeting" />
-              </div>
-              <div className="l-column-md-6 l-pr-md-50">
+            </div>
+            <div className="l-column-md-6 l-pr-md-50">
               <p className="padding-24">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo tellus a nunc sollicitudin, sed auctor diam venenatis. Sed porta lacinia ante, ut blandit lectus consequat sit amet. Phasellus porta nisl vitae odio convallis, a lobortis dui interdum. Etiam porta dapibus quam condimentum ultricies..
               </p>
               <input type="button " className="margin-16 text-center btn-half button border-none career-bg-color career-btn-text-color width-45" readOnly value="JOIN US" />
-
-
-              </div>
-
             </div>
           </div>
-        </section>
+        </div>
+      </section>
       <footer id="footer">
         <div className="l-container">
           <div className="l-row">

@@ -1,18 +1,12 @@
-<<<<<<< HEAD:pages/home/index.js
-
-export default function HomePage () {
-
-=======
 import Link from 'next/link'
 export default function Home () {
->>>>>>> eaeb116876dedc14af02f289c84e40b4ecc8e06a:pages/company/index.js
   return (
     <div id="site">
       <header id="header">
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <a href="/" className="site-logo"><img src="assets/images/logo-light.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navaigation">
@@ -20,12 +14,12 @@ export default function Home () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className="active"><a href="#">The Company</a></li>
-                    <li><Link href="/services">Services</Link></li>
-                    <li><Link href="/key-market">Key Markets</Link></li>
-                    <li><Link href="#">Leadership</Link></li>
-                    <li><Link href="#">Careers</Link></li>
-                    <li><Link href="#" className="button button--primary button--filled">Contact us</Link></li>
+                    <li className="active"><Link href="/company">The Company</Link></li>
+                    <li className=""><Link href="/services">Services</Link></li>
+                    <li ><Link href="/keymarket">Key Markets</Link></li>
+                    <li><Link href="/leadership">Leadership</Link></li>
+                    <li><Link href="/careers">Careers</Link></li>
+                    <li><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
                   </ul>
                 </nav>
               </div>

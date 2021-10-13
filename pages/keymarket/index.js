@@ -20,7 +20,7 @@ export default function keyMarket () {
                     <li className="active"><Link href="/keymarket">Key Markets</Link></li>
                     <li><Link href="/leadership">Leadership</Link></li>
                     <li><Link href="/careers">Careers</Link></li>
-                    <li><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
+                    <li className="button button--primary button--filled"><Link href="/contactus"> Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -143,7 +143,7 @@ export default function keyMarket () {
             </div>
             <div className="l-column-12 l-column-md-6 l-d-flex l-flex-v-align-end">
               <form action="" className="subscription-form">
-                <label for="email">Sign up for monthly updates</label>
+                <label htmlFor="email">Sign up for monthly updates</label>
                 <div className="l-input-group">
                   <input id="email" type="email" name="email" placeholder="Enter your E-mail" />
                   <span className="input-group-btn">

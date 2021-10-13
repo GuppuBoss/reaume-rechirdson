@@ -19,7 +19,7 @@ export default function ContactUs () {
                     <li ><Link href="/keymarket">Key Markets</Link></li>
                     <li><Link href="/leadership">Leadership</Link></li>
                     <li><Link href="/careers">Careers</Link></li>
-                    <li className="active"><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
+                    <li className="button button--primary button--filled"><Link href="/contactus" >Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -43,23 +43,23 @@ export default function ContactUs () {
         </div>
       </section>
       <div className="l-container">
-        <section className="l-row">
-          <div className="l-column-md-6 l-column-sm-12">
-            <p>
+        <section className="l-row bottom-margin top-margin-150 bottom-margin-150">
+          <div className="l-column-md-6 l-column-sm-12 padding-right-150">
+            <p className="padding-down-1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit
               <br />
               vulputate sapien quis tempor.
             </p>
             <form >
-              <div>
+              <div className="padding-down-1">
                 <label htmlFor="name-field" className="text-color-one">Name</label>
                 <input id="name-field" type="text" className="text-color-one border-bottom input full-width" />
               </div>
-              <div >
+              <div className="padding-down-1">
                 <label htmlFor="email-field" className="text-color-one">E-mail</label>
                 <input type="text" id="email-field" className="border-bottom input full-width" />
               </div>
-              <div >
+              <div className="padding-down-1">
                 <label htmlFor="message-field" className="text-color-one font-light">Message</label>
                 <input id="message-field" type="text" className="border-bottom input full-width" />
               </div>
@@ -67,21 +67,27 @@ export default function ContactUs () {
               <p className="inline-display text-color-one"> <label htmlFor="checkbox-check">Clicking the button you agree with <a href="#"><span className="underline">Private Policy</span></a></label> </p>
 
               <br />
-              <button className="button btn btn-top-margin button--filled">
+              <button className="button btn btn-top-margin btn-send button--filled ">
                 SEND
               </button>
 
             </form>
           </div>
-          <div className="l-column-md-6 l-column-sm-12 bg-color padding-24 top-margin">
-            <h2 className="text-color-two">OUR OFFICES</h2>
+          <div className="l-column-md-6 l-column-sm-12 bg-color contact-block-padding">
+            <div className="contactus-text text-color-two">OUR OFFICES</div>
             <br />
-            <p className="inline-display text-color-two">442 S Raymond Ave</p>
-            <p className="text-color-two">Pasadena, CA, 91105 </p>
-            <p className="inline-display text-color-two">213-628-8882 (Office) </p>
-            <p className="text-color-two">213-402-8110 (Fax)</p>
-            <h2 className="text-color-two">EMAIL:</h2>
-            <p className="text-color-two">contact@ReaumeRichardson.com</p>
+            <div className="inline-display text-color-two">442 S Raymond Ave</div>
+            <div className="padding-down-1"></div>
+            <div className="text-color-two padding-down-2">Pasadena, CA, 91105 </div>
+            <div className="padding-down-1"></div>
+
+            <div className="inline-display text-color-two">213-628-8882 (Office) </div>
+            <div className="padding-down-1"></div>
+            <div className="text-color-two">213-402-8110 (Fax)</div>
+            <div className="padding-down-1"></div>
+
+            <div className="contactus-text text-color-two">EMAIL:</div>
+            <div className="text-color-two email-padding-down">contact@ReaumeRichardson.com</div>
             <a href="#"><i className="icon-instagram-1 big-font"></i></a>
             <a href="#"><i className="icon-facebook-1 big-font pad-left"></i></a>
 

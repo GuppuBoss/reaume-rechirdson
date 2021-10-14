@@ -6,7 +6,7 @@ export default function Leadership () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <div className="site-logo"><Link href="/" ><img src="/assets/images/logo-light.png" alt="site logo" /></Link></div>
+              <div className="site-logo"><Link href="/" className="site-logo"><h1 className="hero__title logo_text">the collective</h1></Link></div>
               
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
@@ -152,7 +152,7 @@ export default function Leadership () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-12 l-column-md-6">
-              <a href="index.html" className="site-logo"><img src="assets/images/logo-dark.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><h1 className="hero__title logo_text">the collective</h1></Link>
               <p>©2020 REAUME RICHARDSON | ALL RIGHTS RESERVED |</p>
             </div>
             <div className="l-column-12 l-column-md-6 l-d-flex l-flex-v-align-end">

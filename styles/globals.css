@@ -1885,5 +1885,10 @@ margin-bottom: 150px;
 .padding-right-150 {
   padding-right: 150px;
 }
+.logo_text{
+  font-size: 28px;
+  margin-top: 16px;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */

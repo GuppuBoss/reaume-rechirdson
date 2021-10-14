@@ -7,7 +7,7 @@ export default function Services () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <Link href="/" className="site-logo"><img src="/assets/images/logo-light.png" alt="site logo" /></Link>
+              <Link href="/" className="site-logo"><h1 className="hero__title logo_text">the collective</h1></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -56,8 +56,8 @@ export default function Services () {
                 <div className="l-row gap-80">
                   <div className="l-column-6 l-column-md-6">
                     <div className="image-box">
-                      <div className="image-box__img">
-                        <img src="assets/images/Rectangle 4.jpg" alt="image" />
+                      <div className="image-box__img">        
+                        <img src="assets/images/maleperson.jpg" alt="image" />
 
                       </div>
                       <div className="image-box__title">lorem iprum</div>
@@ -68,7 +68,7 @@ export default function Services () {
                     <div className="image-box">
                       <div className="image-box__img">
 
-                        <img src="assets/images/Rectangle 22.jpg" alt="image" />
+                        <img src="assets/images/femaleperson.jpg" alt="image" />
 
                       </div>
                       <div className="image-box__title">lorem iprum</div>
@@ -368,12 +368,12 @@ export default function Services () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-12 l-column-md-6">
-              <a href="index.html" className="site-logo"><img src="assets/images/logo-dark.png" alt="site logo" /></a>
+              <Link href="/" className="site-logo"><h1 className="hero__title logo_text">the collective</h1></Link>
               <p>©2020 REAUME RICHARDSON | ALL RIGHTS RESERVED |</p>
             </div>
             <div className="l-column-12 l-column-md-6 l-d-flex l-flex-v-align-end">
               <form action="" className="subscription-form">
-                <label for="email">Sign up for monthly updates</label>
+                <label htmlFor="email">Sign up for monthly updates</label>
                 <div className="l-input-group">
                   <input id="email" type="email" name="email" placeholder="Enter your E-mail" />
                   <span className="input-group-btn">

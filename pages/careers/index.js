@@ -6,7 +6,7 @@ export default function Careers () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <Link href="/" className="site-logo"><h1 className="hero__title logo_text">the collective</h1></Link>
+              <Link href="/out/index.html" className="site-logo"><a ><h1 className="hero__title logo_text">the collective</h1></a></Link>
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
               <div className="navigation">
@@ -14,12 +14,12 @@ export default function Careers () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className=""><Link href="/company">The Company</Link></li>
-                    <li className=""><Link href="/services">Services</Link></li>
-                    <li ><Link href="/keymarket">Key Markets</Link></li>
-                    <li><Link href="/leadership">Leadership</Link></li>
-                    <li className="active"><Link href="/careers">Careers</Link></li>
-                    <li className="button button--primary button--filled"><Link href="/contactus" >Contact us</Link></li>
+                    <li className=""><Link href="/out/company.html">The Company</Link></li>
+                    <li className=""><Link href="/out/services.html">Services</Link></li>
+                    <li ><Link href="/out/keymarket.html">Key Markets</Link></li>
+                    <li><Link href="/out/leadership.html">Leadership</Link></li>
+                    <li className="active"><Link href="/out/careers.html">Careers</Link></li>
+                    <li className="button button--primary button--filled"><Link href="/out/contactus.html" >Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -36,7 +36,7 @@ export default function Careers () {
                 <span className="hero__seperator"></span>
 
                 <p className="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                <div className="hero__logo-box"><img src="assets/images/icons/Brand_Mark_REVERSED 1.png" alt="" /></div>
+                <div className="hero__logo-box"><img src="./assets/images/icons/Brand_Mark_REVERSED 1.png" alt="" /></div>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Careers () {
                   <img src="/assets/images/keyMarketingOne.png" alt="not found" />
                 </div>
                 <div className="l-column-md-6">
-                  <img className="height-400" src="/assets/images/keyMarketingTwo.png" alt="key market" />
+                  <img className="height-400" src="./assets/images/keyMarketingTwo.png" alt="key market" />
                 </div>
               </div>
 

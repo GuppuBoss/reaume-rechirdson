@@ -6,7 +6,7 @@ export default function Leadership () {
         <div className="l-container">
           <div className="l-row">
             <div className="l-column-6 l-column-sm-6 l-column-md-3">
-              <div className="site-logo"><Link href="/" className="site-logo"><h1 className="hero__title logo_text">the collective</h1></Link></div>
+              <div className="site-logo"><Link href="/out/index.html" className="site-logo"><a ><h1 className="hero__title logo_text">the collective</h1></a></Link></div>
               
             </div>
             <div className="l-column-6 l-column-sm-6 l-column-md-9">
@@ -15,12 +15,12 @@ export default function Leadership () {
                 <nav className="navigation__nav">
                   <div className="navigation__close"><i className="icon-cross"></i></div>
                   <ul>
-                    <li className=""><Link href="/company">The Company</Link></li>
-                    <li className=""><Link href="/services">Services</Link></li>
-                    <li ><Link href="/keymarket">Key Markets</Link></li>
-                    <li className="active"><Link href="/leadership">Leadership</Link></li>
-                    <li ><Link href="/careers">Careers</Link></li>
-                    <li className="button button--primary button--filled"><Link href="/contactus" className="button button--primary button--filled">Contact us</Link></li>
+                    <li className=""><Link href="/out/company.html">The Company</Link></li>
+                    <li className=""><Link href="/out/services.html">Services</Link></li>
+                    <li ><Link href="/out/keymarket.html">Key Markets</Link></li>
+                    <li className="active"><Link href="/out/leadership.html">Leadership</Link></li>
+                    <li><Link href="/out/careers.html">Careers</Link></li>
+                    <li className="button button--primary button--filled"><Link href="/out/contactus.html" >Contact us</Link></li>
                   </ul>
                 </nav>
               </div>
@@ -37,7 +37,7 @@ export default function Leadership () {
                 <span className="hero__seperator"></span>
 
                 <p className="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                <div className="hero__logo-box"><img src="assets/images/icons/Brand_Mark_REVERSED 1.png" alt="" /></div>
+                <div className="hero__logo-box"><img src="./assets/images/icons/Brand_Mark_REVERSED 1.png" alt="" /></div>
               </div>
             </div>
           </div>
